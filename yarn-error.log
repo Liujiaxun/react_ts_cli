@@ -1,0 +1,49 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\guorong\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add webapck webpack-cli
+
+PATH: 
+  D:\Python\Python37\Scripts\;D:\Python\Python37\;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_152\bin;D:\apache-maven-3.3.9\bin;D:\apache-ant-1.10.1\bin;D:\Program Files\Git\cmd;D:\nodejs\;D:\pycSafefile\x64;C:\Users\guorong\AppData\Local\Microsoft\WindowsApps;D:\OpenVPN\bin;D:\Program Files\Git\cmd;C:\Users\guorong\AppData\Roaming\npm;D:\Inno Setup 5;D:\Python\Python37\Scripts;D:\Python\Python37;D:\gradle-5.4.1\bin;d:\Program Files\JetBrains\WebStorm 2019.2.4\bin;C:\Users\guorong\AppData\Local\BypassRuntm;d:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/webapck: Not found
+      at Request.params.callback [as _callback] (C:\Users\guorong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66926:18)
+      at Request.self.callback (C:\Users\guorong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\guorong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\guorong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "nodeadmin",
+    "version": "1.0.0",
+    "description": "a admin ",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "admin"
+    ],
+    "author": "jiaxun.liu",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
