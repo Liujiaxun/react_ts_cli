@@ -1,6 +1,7 @@
 const merge = require('webpack-merge')
 const webpackBaseConfig = require('./webpack.config.base')
 const path = require('path')
+console.log(path.resolve(__dirname, '..', 'src', 'app.tsx'))
 const dev = merge(webpackBaseConfig, {
     mode: 'development',
     devServer: {
